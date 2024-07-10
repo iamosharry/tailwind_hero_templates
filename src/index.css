@@ -6,6 +6,13 @@
 
 /* src/styles.css */
 
+.background_image {
+  background-image: url("./assets/fourthBgImg.avif");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
 .css-underline {
   position: relative;
 }
