@@ -9,8 +9,8 @@ const HeroInfo = () => {
           <p className="border border-gray-300 max-w-fit m-auto py-2 px-4 rounded-full text-[14px] md:text-[16px] text-[#111827]">
             Announcing our next round of funding.
             <a
-              href=""
-              target=""
+              href="https://github.com/iamosharry/tailwind_hero_templates.git"
+              target="_blank"
               className="inline-flex items-center gap-x-1 text-[#4e46e2] hover:text-[#665ff0] font-bold ml-1 "
             >
               Get code <LuArrowRight />
