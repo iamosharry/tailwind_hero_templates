@@ -26,12 +26,20 @@ const HeroInfo = () => {
           aliqua.
         </p>
         <div className="text-center">
-          <button className="bg-[#4F46E5] hover:bg-[#3a34b1] text-white font-bold text-lg px-5 py-3 rounded-md">
+          <a
+            href="https://github.com/iamosharry/tailwind_hero_templates.git"
+            target="_blank"
+            className="bg-[#4F46E5] hover:bg-[#3a34b1] text-white font-bold text-lg px-5 py-3 rounded-md"
+          >
             Get started
-          </button>
-          <button className="px-5 py-3 inline-flex items-center gap-x-1 font-bold text-lg text-gray-600">
+          </a>
+          <a
+            href="https://github.com/iamosharry/tailwind_hero_templates.git"
+            target="_blank"
+            className="px-5 py-3 inline-flex items-center gap-x-1 font-bold text-lg text-gray-600"
+          >
             Learn more <LuArrowRight />
-          </button>
+          </a>
         </div>
       </div>
     </>
