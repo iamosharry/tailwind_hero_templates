@@ -16,7 +16,7 @@ interface Props {
 const BgImageHero = ({ nav, onclick }: Props) => {
   return (
     <>
-      <div className="h-full lg:h-[100vh] w-full background_image">
+      <div className=" lg:h-[100vh]  w-full background_image">
         <header className="p-5 flex items-center justify-between relative pt-8 ">
           <div>
             <img className="w-[80px] " src={mark} alt="" />
@@ -58,7 +58,7 @@ const BgImageHero = ({ nav, onclick }: Props) => {
 
         <div className="mt-20 h-[70vh] pb-10 ">
           <div className="   mb-5 ">
-            <p className="border border-gray-300 max-w-fit m-auto py-2 px-4 rounded-full text-[14px] md:text-[16px] text-gray-400">
+            <p className="border border-white max-w-fit m-auto py-2 px-4 rounded-full text-[13px] md:text-[16px] text-gray-400">
               Announcing our next round of funding.
               <a
                 href="https://github.com/iamosharry/tailwind_hero_templates.git"

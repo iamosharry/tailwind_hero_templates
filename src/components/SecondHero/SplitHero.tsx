@@ -4,7 +4,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import splitPhoto from "../../assets/dark-project-app-screenshot.png";
 const SplitHero = () => {
   return (
-    <div className="bg-[#121928]  pl-5 md:pl-10 py-20 relative overflow-hidden  ">
+    <div className="bg-[#121928]  pl-5 md:pl-10 py-20  relative overflow-hidden ">
       <div className="mb-20">
         <img src={mark} className="w-[70px]" alt="" />
       </div>
