@@ -5,7 +5,6 @@ import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { okaidia } from "react-syntax-highlighter/dist/esm/styles/prism";
 
 const CodeHero = () => {
-  let color = "black";
   const codeString = `
 import { useState } from 'react';
 import { Switch } from '@headlessui/react';
