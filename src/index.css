@@ -72,3 +72,8 @@
 .indexx {
   z-index: 100;
 }
+
+.scroll_xx {
+  overflow-x: hidden;
+  scrollbar-width: none;
+}

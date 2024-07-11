@@ -19,7 +19,6 @@ function Example() {
         onChange={setEnabled}
         name="notifications"
       >
-        {/* ... */}
       </Switch>
       <button type="submit">Submit</button>
     </form>
@@ -77,15 +76,15 @@ function Example() {
               </div>
             </div>
           </div>
-          <div className="w-full border-2  md:max-w-[40%] hidden  md:ml-20  bg-[#6366F1] relative md:flex items-end justify-end md:rounded-2xl">
-            <div className="box  w-[93%] h-[90%] mt-14 bg-[#111827] rounded-tl-2xl  overflow-hidden">
+          <div className="w-full border-2  md:max-w-[40%] hidden  md:ml-20  bg-[#6366F1] relative md:flex items-end justify-end md:rounded-2xl ">
+            <div className="box   w-[93%] h-[90%] mt-14 bg-[#111827] rounded-tl-2xl  overflow-hidden">
               <div className=" flex space-x-10 border-gray-400 border-b mb-5 ">
                 <p className="text-white text-lg py-5 px-5 bg-[#222938] border-r border-gray-400 border-b">
                   NotificationSetting.jsx
                 </p>
                 <p className="text-white text-lg py-5 px-2 ">App.jsx</p>
               </div>
-              <div>
+              <div className="">
                 <SyntaxHighlighter language="jsx" style={customStyle}>
                   {codeString}
                 </SyntaxHighlighter>

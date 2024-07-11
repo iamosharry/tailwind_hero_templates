@@ -4,7 +4,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import splitPhotoWhite from "../../assets/project-app-screenshot.png";
 const SplitWhite = () => {
   return (
-    <div className="bg-white pl-5 md:pl-10 py-20 relative overflow-hidden ">
+    <div className="bg-white pl-5 md:pl-10 py-20 relative overflow-hidden  ">
       <div className="mb-20">
         <img src={mark} className="w-[70px]" alt="" />
       </div>
@@ -44,8 +44,8 @@ const SplitWhite = () => {
             </button>
           </div>
         </div>
-        <div className="w-full lg:w-[768px]  rounded-2xl border_css  overflow-hidden qrr scale-105">
-          <img className="w-full" src={splitPhotoWhite} alt="" />
+        <div className="w-full lg:w-[768px] md:h-fit rounded-2xl border_css  overflow-hidden qrr scale-105">
+          <img className="w-full " src={splitPhotoWhite} alt="" />
         </div>
       </div>
     </div>
