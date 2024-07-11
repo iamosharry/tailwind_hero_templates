@@ -45,7 +45,7 @@ const SplitWhite = () => {
           </div>
         </div>
         <div className="w-full lg:w-[768px]  rounded-2xl border_css  overflow-hidden qrr scale-105">
-          <img className="w-full " src={splitPhotoWhite} alt="" />
+          <img className="w-full" src={splitPhotoWhite} alt="" />
         </div>
       </div>
     </div>
