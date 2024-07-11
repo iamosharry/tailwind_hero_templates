@@ -4,7 +4,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 import splitPhotoWhite from "../../assets/project-app-screenshot.png";
 const SplitWhite = () => {
   return (
-    <div className="bg-white pl-5 md:pl-10 py-20 relative overflow-hidden lg:h-[100vh]">
+    <div className="bg-white pl-5 md:pl-10 py-20 relative overflow-hidden ">
       <div className="mb-20">
         <img src={mark} className="w-[70px]" alt="" />
       </div>
@@ -39,7 +39,7 @@ const SplitWhite = () => {
             <button className="bg-[#6366F1] hover:bg-[#3a34b1] text-white font-bold text-lg px-5 py-3 rounded-md">
               Get started
             </button>
-            <button className="px-5 py-3 inline-flex items-center gap-x-1 font-bold text-lg text-white">
+            <button className="px-5 py-3 inline-flex items-center gap-x-1 font-bold text-lg text-gray-600">
               Learn more <LuArrowRight />
             </button>
           </div>
