@@ -5,6 +5,8 @@ import SplitHero from "./components/SecondHero/SplitHero";
 import SplitWhite from "./components/ThirdHero.tsx/SplitWhite";
 import BgImageHero from "./components/FourthHero/BgImageHero";
 import CodeHero from "./components/FifthHero/CodeHero";
+import BtnSpectra from "./components/Spectra/BtnSpectra";
+import { DarkGridHero } from "./components/darkGridHero/DarkGridHero";
 
 const App = () => {
   const [nav, setNav] = useState(false);
@@ -15,6 +17,8 @@ const App = () => {
       <SplitWhite />
       <BgImageHero onclick={() => setNav(!nav)} nav={nav} />
       <CodeHero />
+      <BtnSpectra />
+      <DarkGridHero />
     </>
   );
 };
