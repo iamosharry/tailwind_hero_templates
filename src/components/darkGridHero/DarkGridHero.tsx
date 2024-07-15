@@ -90,7 +90,10 @@ const Content = () => {
         className="flex flex-col items-center gap-6 sm:flex-row"
       >
         <SplashButton className="flex items-center gap-2">
-          Try it free
+          <a href="https://github.com/iamosharry/tailwind_hero_templates.git">
+            Try it free
+          </a>
+
           <FiArrowRight />
         </SplashButton>
         <GhostButton className="rounded-md px-4 py-2 text-zinc-100">
