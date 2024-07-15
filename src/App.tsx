@@ -12,13 +12,13 @@ const App = () => {
   const [nav, setNav] = useState(false);
   return (
     <>
+      <DarkGridHero />
       <Centered navList={navList} onclick={() => setNav(!nav)} nav={nav} />
       <SplitHero />
       <SplitWhite />
       <BgImageHero onclick={() => setNav(!nav)} nav={nav} />
       <CodeHero />
       {/* <BtnSpectra /> */}
-      <DarkGridHero />
     </>
   );
 };
