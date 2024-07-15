@@ -93,7 +93,6 @@ const Content = () => {
           <a href="https://github.com/iamosharry/tailwind_hero_templates.git">
             Try it free
           </a>
-
           <FiArrowRight />
         </SplashButton>
         <GhostButton className="rounded-md px-4 py-2 text-zinc-100">
@@ -125,7 +124,7 @@ const GradientGrid = () => {
         }}
         className="absolute inset-0 z-0"
       />
-      <div className="absolute inset-0 z-10 bg-gradient-to-b from-zinc-950/0 to-zinc-950" />
+      <div className="absolute inset-0 z-10 bg-gradient-to-b from-zinc-950/0 to-blue-950" />
     </motion.div>
   );
 };
