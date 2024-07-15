@@ -9,7 +9,7 @@ interface Props {
 const Centered = ({ navList, onclick, nav }: Props) => {
   return (
     <>
-      <div className="relative pb-36 pt-2">
+      <div className="relative pb-36 pt-2 h-[100vh] md:h-full">
         <NavBar navList={navList} onclick={onclick} nav={nav} />
         <HeroInfo />
       </div>
