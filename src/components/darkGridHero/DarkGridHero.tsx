@@ -4,7 +4,7 @@ import { FiArrowRight } from "react-icons/fi";
 import GlowingChip from "./GlowingChip";
 import SplashButton from "./SplashButton";
 import GhostButton from "./GhostButton";
-import Beams from "./Beams";
+import Beams from "./beam/Beams";
 import GradientGrid from "./GradientGrid";
 
 export const DarkGridHero = () => {

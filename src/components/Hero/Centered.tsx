@@ -1,7 +1,7 @@
 import NavBar from "./NavBar";
 import Navtype from "../..";
 import HeroInfo from "./HeroInfo";
-import Beams from "../darkGridHero/Beams";
+import Beams from "../darkGridHero/beam/Beams";
 // import GradientGrid from "../darkGridHero/GradientGrid";
 
 interface Props {

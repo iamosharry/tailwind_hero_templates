@@ -1,5 +1,5 @@
-import Beam from "./Bean";
-import useWindowSize from "./useWindowSize";
+import Beam from "../Bean";
+import useWindowSize from "../useWindowSize";
 
 const Beams = () => {
   const GRID_BOX_SIZE = 32;

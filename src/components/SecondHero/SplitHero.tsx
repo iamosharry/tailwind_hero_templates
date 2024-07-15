@@ -2,9 +2,13 @@ import { LuArrowRight } from "react-icons/lu";
 import mark from "../../assets/mark.svg";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import splitPhoto from "../../assets/dark-project-app-screenshot.png";
+import GradientGrid from "../darkGridHero/GradientGrid";
 const SplitHero = () => {
   return (
-    <div className="bg-[#121928]  pl-5 md:pl-10 py-20  relative overflow-hidden ">
+    <div className="bg-[#090d18]  pl-5 md:pl-10 py-20  relative overflow-hidden ">
+      <div className="absolute w-full h-full  to-[#9089fc] top-0 opacity-10 z-[1] left-0 ">
+        <GradientGrid />
+      </div>
       <div className="mb-20">
         <img src={mark} className="w-[70px]" alt="" />
       </div>
