@@ -17,7 +17,7 @@ const App = () => {
       <SplitWhite />
       <BgImageHero onclick={() => setNav(!nav)} nav={nav} />
       <CodeHero />
-      <BtnSpectra />
+      {/* <BtnSpectra /> */}
       <DarkGridHero />
     </>
   );
