@@ -18,7 +18,7 @@ export const DarkGridHero = () => {
 
 const Content = () => {
   return (
-    <div className="relative z-20 mx-auto flex max-w-6xl flex-col items-center justify-center px-4 py-24 md:px-8 md:py-36">
+    <div className="relative z-20 mx-auto flex max-w-6xl flex-col items-center justify-center px-4 py-24 md:px-8 md:py-36 h-[100vh] md:h-full">
       <motion.div
         initial={{
           y: 25,
