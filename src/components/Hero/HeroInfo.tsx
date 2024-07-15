@@ -6,7 +6,7 @@ const HeroInfo = () => {
       <div className="absolute w-full h-full bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] top-0 opacity-10 z-[-1]"></div>
       <div className="mt-20 ">
         <div className="   mb-5 ">
-          <p className="border border-gray-300 max-w-fit m-auto py-2 px-4 rounded-full text-[14px] md:text-[16px] text-[#111827]">
+          <p className="border border-gray-300 max-w-fit m-auto py-2 px-4 rounded-full text-[14px] md:text-[16px] text-[#111827] text-center">
             Announcing our next round of funding.
             <a
               href="https://github.com/iamosharry/tailwind_hero_templates.git"
